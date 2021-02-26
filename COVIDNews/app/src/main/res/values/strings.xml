@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">疫闻录</string>
+    <string name="title_home">新闻</string>
+    <string name="title_dashboard">数据</string>
+    <string name="title_notifications">历史</string>
+    <string name="search_hint">搜索</string>
+    <string name="type_all">综合</string>
+    <string name="type_news">新闻</string>
+    <string name="type_paper">论文</string>
+    <string name="title_activity_context">新闻详情</string>
+    <string name="title_change_category">增删分类</string>
+    <string name="title_search">搜索</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="hello_world">Hello Square World!</string>
+</resources>

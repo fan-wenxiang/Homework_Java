@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.java.fanwenxiang.ui.home.RefreshLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/refresh_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ListView
+            android:id="@+id/list_news"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+</com.java.fanwenxiang.ui.home.RefreshLayout>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/item_layout"
+        android:layout_width="match_parent"
+        android:layout_height="76dp">
+
+        <TextView
+            android:id="@+id/item_news_title"
+            android:layout_width="0dp"
+            android:layout_height="55dp"
+            android:gravity="top|center_vertical"
+            android:text="item_news_title"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/item_news_type"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/item_news_content"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:singleLine="true"
+            android:text="item_news_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/item_news_title" />
+
+        <TextView
+            android:id="@+id/item_news_type"
+            android:layout_width="60dp"
+            android:layout_height="55dp"
+            android:layout_marginStart="4dp"
+            android:text="item_news_type"
+            android:textColor="@color/purple"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/item_news_content"
+            app:layout_constraintEnd_toStartOf="@+id/item_news_title"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>
