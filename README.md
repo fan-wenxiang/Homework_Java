@@ -4,9 +4,9 @@
 
 我们组用的是Android Studio内置的Bottom Navigation Activity框架，主要实现了新闻列表，历史记录，修改分类，数据统计这些功能。这里放两张app运行时的截图：
 
-<img src="https://github.com/fan-wenxiang/Homework_Graphics/raw/master/Document/截图/新闻列表.jpg" style="zoom: 25%;" />
+<img src="https://github.com/fan-wenxiang/Homework_Java/raw/master/Document/截图/新闻列表.jpg" style="zoom: 25%;" />
 
-<img src="https://github.com/fan-wenxiang/Homework_Graphics/raw/master/Document/截图/新闻详情.jpg" style="zoom:25%;" />
+<img src="https://github.com/fan-wenxiang/Homework_Java/raw/master/Document/截图/新闻详情.jpg" style="zoom:25%;" />
 
 当然还有其他功能的界面，但因为太丑了就不放出来了。
 
